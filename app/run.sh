@@ -9,6 +9,6 @@ if [ `id -u` -ge 10000 ]; then
     rm /tmp/passwd
 fi
 
-cd /home/runner/artifacts
+cd /home/runner
 
-npm start
+serve -s artifacts -l 3000

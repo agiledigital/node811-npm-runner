@@ -23,6 +23,8 @@ RUN chmod +x /home/runner/app/run.sh
 RUN chmod g+w /etc/passwd
 RUN chgrp -Rf root /home/runner && chmod -Rf g+w /home/runner
 
+RUN npm install -g serve
+
 EXPOSE 3000
 
 USER runner
