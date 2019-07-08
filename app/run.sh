@@ -11,4 +11,4 @@ fi
 
 cd /home/runner
 
-serve -s artifacts -l 3000
+serve -s artifacts/build -l 3000
