@@ -11,4 +11,4 @@ fi
 
 cd /home/runner
 
-http-server artifacts/build -S --port 3000
+http-server artifacts/build --port 3000
