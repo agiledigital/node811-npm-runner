@@ -11,4 +11,4 @@ fi
 
 cd /home/runner
 
-http-server artifacts/build -p 3000
+http-server artifacts/build -S -p 3000
